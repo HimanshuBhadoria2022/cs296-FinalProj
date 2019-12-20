@@ -136,7 +136,7 @@
 			inv (-> player :inventory)]
 			(if (contains? content item)
 				(if (contains? inv item)
-					(do (printf "\nYou already have it.") player)
+					(do (printf "\nYou already have it.\n") player)
 					(do (printf "\nYou picked up %s. %s\n" title desc)(update-in (incWeight player) [:inventory] #(conj % item))))
 				(do (println "That's not here.\n") player))))
 
