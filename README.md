@@ -13,7 +13,7 @@ The materials you need to collect are an apple, sugar, milk, spinach, a knife, a
   <b>w</b>, <b>west</b> - movement<br>
   <b>i</b>, <b>inventory</b> - look at items you're carrying<br>
   <b>look</b> - get more details about location<br>
-  <b>examine</b> (item) - get more details about an item<br>
+  <b>examine (item)</b> - get more details about an item<br>
   <b>take (item)</b> - pick up item<br>
   <b>drop (item)</b> - drop item into void<br>
   <b>quit</b> - leave game<br>
