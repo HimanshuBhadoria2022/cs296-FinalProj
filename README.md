@@ -11,7 +11,7 @@ The materials you need to collect are an apple, sugar, milk, spinach, a knife, a
   <b>s</b>, <b>south</b> - movement<br>
   <b>e</b>, <b>east</b> - movement<br>
   <b>w</b>, <b>west</b> - movement<br>
-  <b>i</b> <b>inventory</b> - look at items you're carrying<br>
+  <b>i</b>, <b>inventory</b> - look at items you're carrying<br>
   <b>look</b> - get more details about location<br>
   <b>examine</b> (item) - get more details about an item<br>
   <b>take (item)</b> - pick up item<br>
