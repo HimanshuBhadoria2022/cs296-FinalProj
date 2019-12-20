@@ -6,10 +6,10 @@ The goal of this game is to trek through the house, gathering different material
 
 The materials you need to collect are an apple, sugar, milk, spinach, a knife, and a blender. The apple will be manipulated.
 
-<h3>The commands are:<h3>
-  n north</b> - movement
-  s south</b> - movement
-  e east</b> - movement
+<h3>The commands are:</h3>
+  n north - movement
+  s south - movement
+  <b>e east</b> - movement
   w west</b> - movement
   i inventory - look at items you're carrying
   look - get more details about location
