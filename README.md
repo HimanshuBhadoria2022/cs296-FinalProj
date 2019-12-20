@@ -1,6 +1,6 @@
 <h1> CS 296 Final Project by Himanshu Bhadoria (hb6) </h1>
 
-Use <i>lein run</i> to start game. The game has 8 rooms and objects to collect/manipulate.
+Use <i>lein run</i> to start game. The game has 8 rooms and many objects to collect/manipulate.
 
 The goal of this game is to trek through the house and gather different materials to make yourself a smoothie. Once you make the smoothie, the game is complete.
 
