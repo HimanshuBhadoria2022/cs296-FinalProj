@@ -4,7 +4,7 @@ Use <i>lein run</i> to start game. The game has 8 rooms and objects to collect/m
 
 The goal of this game is to trek through the house, gathering different materials to make yourself a smoothie. Once you make the smoothie, the game is complete.
 
-The materials you need to collect are an apple, sugar, milk, spinach, a knife, and a blender. The apple will be manipulated.
+The materials you need to collect are an apple, sugar, milk, spinach, a knife, and a blender. You must slice the apple.
 
 <h3>The commands are:</h3>
   <b>n</b>, <b>north</b> - movement<br>
