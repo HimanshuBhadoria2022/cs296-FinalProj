@@ -1,4 +1,4 @@
-##CS 296 Final Project by Himanshu Bhadoria (hb6)
+<h1> CS 296 Final Project by Himanshu Bhadoria (hb6) </h1>
 
 Use lein run to start game. The game has 8 rooms and objects to collect/manipulate.
 
