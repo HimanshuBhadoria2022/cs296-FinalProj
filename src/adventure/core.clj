@@ -56,13 +56,13 @@
 
 (def init-items
   {:knife {
-     :desc "A knife for cutting apples with 'slice'."
+     :desc "A knife for cutting an 'apple' with 'slice'."
      :title "a knife"}
    :spinach {
      :desc "Spinach for your smoothie."
      :title "spinach"}
    :apple {
-     :desc "An apple that you must 'slice' with a knife."
+     :desc "An apple that you must 'slice' with a 'knife'."
      :title "an apple"}
    :sliced-apple {
      :desc "A slice apple is better for smoothie making."
