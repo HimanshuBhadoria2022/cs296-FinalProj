@@ -259,6 +259,6 @@
   (loop [my-map init-map
         my-player init-adventurer]
     (let [pl (status my-player)
-        _  (println "\nWhat do you want to do? ('help' for instructions)")
+        _  (println "\nWhat do you want to do? ('help' for commands)")
         command (read-line)]
         (recur my-map (respond pl (canonicalize command))))))
