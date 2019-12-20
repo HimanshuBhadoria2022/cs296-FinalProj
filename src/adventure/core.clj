@@ -204,7 +204,7 @@
   (let [i (player :inventory)]
     (if (empty? i)
       (do (println "\nNothing in inventory.") player)
-      (do (printf "Inventory: %s\n" i) player))))
+      (do (printf "\nInventory: %s\n" i) player))))
 
 (defn help [player]
   (do (printf "\nGoal is to gather ingredients and make smoothie.\nInstructions:\nn, s, e, w\nlook\nexamine (item), take (item), drop (item)\ni, inventory\nslice, blend, drink\nquit\n") player)
