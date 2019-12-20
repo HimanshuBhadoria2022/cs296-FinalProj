@@ -20,5 +20,5 @@ The materials you need to collect are an apple, sugar, milk, spinach, a knife, a
   <b>slice</b> - use knife to transform apple into sliced apple<br>
   <b>blend</b> - use ingredients to create smoothie<br>
   <b>drink</b> - drink smoothie to complete game<br>
-  
+  <br>
 The two extra keys added to the adventurer were happiness and weight. Happiness increases when you visit the barn. Weight increases/decreases when you pick up or drop objects.
