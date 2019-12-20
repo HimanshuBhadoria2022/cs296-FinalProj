@@ -121,7 +121,7 @@
 
 (defn status [player]
   (let [location (player :location)]
-    (print (str "\nWelcome to " (-> init-map location :title) ". "))
+    (print (str "\nYou are in " (-> init-map location :title) ". "))
     (when-not ((player :seen) location)
       (print (-> init-map location :desc)))
     (update-in player [:seen] #(conj % location))
@@ -259,6 +259,6 @@
   (loop [my-map init-map
         my-player init-adventurer]
     (let [pl (status my-player)
-        _  (println "\nWhat do you want to do? ('help for instructions')")
+        _  (println "\nWhat do you want to do? ('help' for instructions)")
         command (read-line)]
         (recur my-map (respond pl (canonicalize command))))))
