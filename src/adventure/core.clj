@@ -71,7 +71,7 @@
      :desc "An apple that you must 'slice' with a 'knife'."
      :title "an apple"}
    :sliced-apple {
-     :desc "A slice apple is better for smoothie making."
+     :desc "A sliced apple is better for smoothie making."
      :title "a sliced apple"}
    :milk {
      :desc "Some milk for your smoothie."
