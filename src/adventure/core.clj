@@ -237,6 +237,7 @@
     [:examine :sugar] (examine :sugar (ticktick player))
     [:examine :blender] (examine :blender (ticktick player))
     [:examine :sliced :apple] (examine :sliced-apple (ticktick player))
+    [:examine :sliced-apple] (examine :sliced-apple (ticktick player))
     [:examine :smoothie] (examine :smoothie (ticktick player))
     [:drop :knife] (drop :knife (ticktick player))
     [:drop :spinach] (drop :spinach (ticktick player))
