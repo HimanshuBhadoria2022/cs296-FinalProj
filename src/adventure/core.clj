@@ -27,9 +27,10 @@
             :east :barn}
       :contents #{:apple}}
     :shed {
-      :desc "Here you can get milk ('take milk').\nUse 'e' to go to garden."
+      :desc "Here you can get milk ('take milk').\nUse 'e' to go to garden, 'w' to visit the fish pond."
       :title "the shed"
-      :dir {:east :garden}
+      :dir {:east :garden
+            :west :pond}
       :contents #{:milk}}
     :barn {
       :desc "You visit the horses. Your happiness level just increased!\nUse 'w' to go to the apple tree."
@@ -48,8 +49,13 @@
       :contents #{:sugar}}
     :bedroom {
       :desc "Looks like someone is asleep in the bedroon.\nUse 'w' to exit quietly."
-      :title "bedroom"
+      :title "the bedroom"
       :dir {:west :kitchen}
+      :contents #{}}
+    :pond {
+      :desc "Here is a beautiful fish pond. You happiness level just increased!.\nUse 'e' to return to the shed."
+      :title "the fish pond"
+      :dir {:east :shed}
       :contents #{}}
   }
 )
@@ -103,7 +109,7 @@
 
 (defn incHappiness [dest player]
   (let [idx (player :happiness)]
-    (if(= dest :barn)
+    (if(or (= dest :barn) (= dest :pond))
       (do (printf "\nHappiness increased to %s!" (+ idx 1))
           (update-in player [:happiness] inc))
       player)
