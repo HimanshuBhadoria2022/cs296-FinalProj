@@ -1,4 +1,4 @@
-<h1> CS 296 Final Project by Himanshu Bhadoria (hb6) </h1>
+<h1> CS 296 Final Project by Anna Tan (atan27) and Himanshu Bhadoria (hb6) </h1>
 
 Use <i>lein run</i> to start game. The game has 9 rooms and many objects to collect/manipulate.
 
